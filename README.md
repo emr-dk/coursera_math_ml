@@ -22,8 +22,6 @@ Singular matrixes
 ## Determinant
 If $det A = 0$ the matrix is singular, otherwise it is non-singular. 
 Mathematically it's a bit more complicated, but its written as: 
-$$
-det(A) = \begin{vmatrix} a_{1,1} & \cdots & a_{1,n}\\
+$$det(A) = \begin{vmatrix} a_{1,1} & \cdots & a_{1,n}\\
                                     \vdots & & \vdots \\
-                                    a_{n,1} & \cdots & a_{n,n} \end{vmatrix} = \sum_{\sigma \in S_n} \left( sgn(\sigma)\prod_{i=1}^n \right) = \sum_{\sigma \in S_n} sgn(\sigma)a_{1,\sigma_1} \cdots a_{n,\sigma_n} 
-$$
+                                    a_{n,1} & \cdots & a_{n,n} \end{vmatrix} = \sum_{\sigma \in S_n} \left( sgn(\sigma)\prod_{i=1}^n \right) = \sum_{\sigma \in S_n} sgn(\sigma)a_{1,\sigma_1} \cdots a_{n,\sigma_n}$$
